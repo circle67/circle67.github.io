@@ -9,4 +9,4 @@ permalink: /home
 # Circle67.io
 ## Home
 ---
-![Steve Harvey](images/steve2)
+![Steve Harvey](images/steve2.png)
