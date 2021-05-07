@@ -3,8 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+permalink: /home
 ---
 
-# the home or what?
-
-HOOOOEMEE
+# Circle67.io
+## Home
+---
+![Steve Harvey](images/steve2)
