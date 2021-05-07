@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-# Johnn2
-## Joooeoee
