@@ -2,6 +2,51 @@ body {
 	background-color: #002b36
 }
 
+#main {
+	padding: 100px;
+	padding-top: 80px;
+}
+
+#menu-bar {
+  padding-left: 0px;
+  padding-right: 110px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #93a1a1;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #073642;
+}
+
+#menu-bar a {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #657b83;
+  text-decoration: none;
+}
+
+#menu-bar a:hover {
+  color: #93a1a1;
+}
+
+.container {
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-right: 50px;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 200px;
+	background-color: #073642;
+}
+
+
 h1 {
 	font-family: Comfortaa, sans-serif;
 	font-size: 32px;
@@ -10,7 +55,6 @@ h1 {
 	color: #93a1a1;
 	font-weight: 700;
 	text-transform: lowercase;
-	background-color: #073642;
 }
 
 h2 {
@@ -21,7 +65,6 @@ h2 {
 	color: #93a1a1;
 	font-weight: 700;
 	text-transform: lowercase;
-	background-color: #073642;
 }
 
 h3 {
@@ -32,7 +75,6 @@ h3 {
 	color: #839496;
 	font-weight: 600;
 	text-transform: lowercase;
-	background-color: #073642;
 }
 
 h4 {
@@ -43,7 +85,6 @@ h4 {
 	color: #657b83;
 	font-weight: 500;
 	text-transform: lowercase;
-	background-color: #073642;
 }
 
 p {
@@ -53,7 +94,6 @@ p {
 	word-spacing: 2px;
 	color: #839496;
 	font-weight: 400;
-	background-color: #073642;
 }
 
 .subtitle {
@@ -64,5 +104,4 @@ p {
 	color: #657b83;
 	font-weight: 400;
 	text-transform: lowercase;
-	background-color: #073642;
 }
