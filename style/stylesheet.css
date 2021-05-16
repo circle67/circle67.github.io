@@ -1,5 +1,5 @@
 body {
-	background-color: #073642;
+	background-color: #002b36;
 }
 
 #main {
@@ -18,14 +18,14 @@ body {
   height: 35px;
   text-align: center;
   padding-top: 15px;
-  background-color: #fdf6e3;
+  background-color: #073642;
 }
 
 #menu-bar a {
   font-size: 18px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #657b83;
+  color: #93a1a1;
   text-decoration: none;
 }
 
