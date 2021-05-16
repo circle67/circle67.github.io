@@ -18,14 +18,14 @@ body {
   height: 35px;
   text-align: center;
   padding-top: 15px;
-  background-color: #073642;
+  background-color: #fdf6e3;
 }
 
 #menu-bar a {
   font-size: 18px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #657b83;
+  color: #fdf6e3;
   text-decoration: none;
 }
 
