@@ -1,5 +1,5 @@
 body {
-	background-color: #002b36
+	background-color: #073642;
 }
 
 #main {
@@ -25,7 +25,7 @@ body {
   font-size: 18px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #fdf6e3;
+  color: #657b83;
   text-decoration: none;
 }
 
