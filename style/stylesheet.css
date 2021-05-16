@@ -1,3 +1,22 @@
+/*
+base03: #002b36;
+base02: #073642;
+base01: #586e75;
+base00: #657b83;
+base0: #839496;
+base1: #93a1a1;
+base2: #eee8d5;
+base3: #fdf6e3;
+yellow: #b58900;
+orange: #cb4b16;
+red: #dc322f;
+magenta: #d33682;
+violet: #6c71c4;
+blue: #268bd2;
+cyan: #2aa198;
+green: #859900;
+*/
+
 body {
 	background-color: #002b36;
 }
@@ -37,12 +56,12 @@ body {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	margin-right: 50px;
-	margin-left: 50px;
-	padding-top: 10px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	padding-right: 200px;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	padding-left: 60px;
+	padding-right: 80px;
 	background-color: #073642;
 }
 
