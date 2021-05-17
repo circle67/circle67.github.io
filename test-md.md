@@ -2,6 +2,7 @@
 permalink: /this-is-a-test
 ---
 
+<html>
 <head>
 	<script src="https://kit.fontawesome.com/023261569c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style/stylesheet.css">
