@@ -27,24 +27,28 @@ body {
 }
 
 #menu-bar {
-	padding-left: 0px;
-	padding-right: 110px;
 	margin: 0 auto;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-weight: 300;
 	color: #93a1a1;
 	height: 35px;
-	text-align: center;
-	padding-top: 15px;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #073642;
 	text-transform: lowercase;
 }
 
 #menu-bar a {
 	font-size: 18px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: #657b83;
 	text-decoration: none;
 }
@@ -146,3 +150,8 @@ footer a {
 	text-decoration: none;
 	color: #657b83;
 }
+
+footer a:hover{
+	color: #93a1a1;
+}
+
