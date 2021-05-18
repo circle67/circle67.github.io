@@ -66,7 +66,7 @@ a:hover {
 	padding-right: 20px;
 }
 
-.main-container {
+.single-text-container {
 	display: block;
 	margin: auto;
 	width: 50%;
@@ -154,13 +154,3 @@ footer {
 	color: #657b83;
 	background-color: #073642;
 }
-
-footer a {
-	text-decoration: none;
-	color: #657b83;
-}
-
-footer a:hover{
-	color: #93a1a1;
-}
-
