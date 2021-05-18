@@ -32,16 +32,19 @@ a:hover {
 
 .header {
 	text-align: center;
-	padding: 25px
+	padding: 25px;
 }
 
-/* Primarily for text! */
-#main {
-	padding: 100px;
-	padding-top: 80px;
+/* Set padding for areas like the main text body (since body itself has no padding or anything) */
+#set-margin {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-left: 0.5in;
+	margin-right: 0.5in;
 }
 
 #socials-bar {
+	display: block;
 	margin: 0 auto;
 	position: fixed;
 	top: 0;
@@ -51,19 +54,20 @@ a:hover {
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	font-weight: 300;
-	color: #93a1a1;
+	text-transform: lowercase;
+	color: #657b83;
 	height: 35px;
 	text-align: right;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #073642;
-	text-transform: lowercase;
 }
 
 #socials-bar a {
 	font-size: 18px;
 	padding-left: 20px;
 	padding-right: 20px;
+	vertical-align: middle;
 }
 
 .single-text-container {
@@ -71,12 +75,47 @@ a:hover {
 	margin: auto;
 	width: 50%;
 	margin-top: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: #073642;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: transparent;
+	color: #93a1a1;
+	text-align: center;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
 }
 
 h1 {
