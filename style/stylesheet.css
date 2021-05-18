@@ -32,7 +32,7 @@ a:hover {
 
 .header {
 	text-align: center;
-	padding: 32px
+	padding: 25px
 }
 
 /* Primarily for text! */
@@ -73,7 +73,7 @@ a:hover {
 	margin-top: 25px;
 	margin-bottom: 50px;
 	padding-top: 50px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: #073642;
