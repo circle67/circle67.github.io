@@ -86,41 +86,6 @@ a:hover {
 	background-color: #073642;
 }
 
-.tooltip {
-	position: relative;
-	display: inline-block;
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	background-color: transparent;
-	color: #93a1a1;
-	text-align: center;
-	top: 100%;
-	left: 50%;
-	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-	padding: 5px 0;
-	border-radius: 6px;
-	position: absolute;
-	z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-	visibility: visible;
-}
-
-.tooltip .tooltiptext {
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
-  opacity: 1;
-}
-
 h1 {
 	font-family: Comfortaa, sans-serif;
 	font-size: 32px;
