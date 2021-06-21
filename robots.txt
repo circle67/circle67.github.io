@@ -1,1 +1,2 @@
-Sitemap: https://circle67.github.io/sitemap.txt
+User-agent: Googlebot-Image
+Disallow: /
