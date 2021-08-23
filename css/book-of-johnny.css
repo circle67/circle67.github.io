@@ -4,7 +4,6 @@
 /* Book of Johnny */
 body {
     background-color: #EFEBE9;
-	
     }
 
 div {
@@ -15,13 +14,14 @@ div {
 	font-family: Playfair Display, serif;
 	font-weight: 400;
 	color: black;
+	letter-spacing: 1px;
 }
     
 span {
 	display: inline-block;
 	vertical-align: center;
 	line-height: 40px;
-	opacity: 60%;
+	opacity: 80%;
 }
 
 b {
