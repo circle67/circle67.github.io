@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 /* Book of Johnny */
 body {
@@ -22,4 +22,8 @@ span {
 	vertical-align: center;
 	line-height: 40px;
 	opacity: 60%;
+}
+
+b {
+    font-weight: 700;
 }
