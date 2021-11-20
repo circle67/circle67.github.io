@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Meta
+            ADD AN IMAGE TO EACH META TAG THAT REQUIRES ONE
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>circle67io</title>
+        <meta name="description" content="Circle67 official website.">
+        <meta name="author" content="Circle67">
+        <meta name="copyright" content="Circle67">
+        <meta name="robots" content="index, follow">
+        <meta name="rating" content="general">
+
+        <!-- Stylesheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Scripts -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8SE62KYBV"></script>
         <script>
@@ -10,75 +27,49 @@
 
             gtag('config', 'G-W8SE62KYBV');
         </script>
-        
-        <!-- Meta & SEO -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>circle67io</title>
-        <meta name="description" content="Circle67 personal website.">
-        <meta name="copyright" content="circle67">
-        <meta name="rating" content="general">
-        <!-- OpenGraph -->
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="circle67io">
-        <meta property="og:url" content="https://circle67.github.io">
-        <meta property="og:image" content="https://circle67.github.io/images/social-preview-banner.webp">
-        <meta property="og:description" content="Circle67 personal website.">
-
-        <!-- Content -->
-        <link rel="stylesheet" href="css/styles.css">
-        <script defer src="https://kit.fontawesome.com/023261569c.js" crossorigin="anonymous"></script>
+        <script src="all.min.js"></script>
     </head>
     <body>
-        <div id="socials-bar">
-            <ul>
-                <li class="bar-list-item">
-                    <a href="https://github.com/circle67" target="_blank" rel="noopener external noreferrer"><span class="fab fa-github"></span></a>
-                </li>
-                <li class="bar-list-item">
-                    <a href="https://www.youtube.com/channel/UCq65L258iXbmGhNi93h6wTA" target="_blank" rel="noopener external noreferrer"><span class="fab fa-youtube"></span></a>
-                </li>
-                <li class="bar-list-item">
-                    <a href="https://www.twitch.tv/circularcircle" target="_blank" rel="noopener external noreferrer"><span class="fab fa-twitch"></span></a>
-                </li>
-                <li class="bar-list-item">
-                    <a href="https://twitter.com/circle67_" target="_blank" rel="noopener external noreferrer"><span class="fab fa-twitter"></span></a>
-                </li>
-                <li class="bar-list-item">
-                    <a href="https://www.artstation.com/circle67" target="_blank" rel="noopener external noreferrer"><span class="fab fa-artstation"></span></a>
-                </li>
-            </ul>
+        <div class="base-theme wrapper">
+            <main class="container main-container">
+                <div class="mock-toolbar d-flex flex-row justify-content-start">
+                    <svg width="72" height="24">
+                        <circle class="tb-close" cx="12" cy="12" r="6" />
+                        <circle class="tb-minimize" cx="36" cy="12" r="6" />
+                        <circle class="tb-expand" cx="60" cy="12" r="6" />
+                    </svg>
+                </div>
+                <div class="row">
+                    <section class="col-lg main-section d-flex flex-row flex-lg-column justify-content-between projects-links">
+                        <a class="mx-auto" href="https://circle67.github.io/desktop-text-app/">Desktop Text App</a>
+                    </section>
+                    <section class="col-lg-5 main-section text-center">
+                        <a id="titleImageContainer" href="#" rel="nofollow" class="title-img"></a>
+                        <h1 class="style-h2"><span style="color: var(--pink);">Circle</span><span style="color: var(--blue);">67</span></h1>
+                    </section>
+                    <section class="col-lg main-section d-flex flex-row justify-content-between socials-icons">
+                        <a class="mx-auto" href="https://github.com/circle67" rel="external nofollow"><i class="fab fa-github"></i></a>
+                        <a class="mx-auto" href="https://www.youtube.com/channel/UCq65L258iXbmGhNi93h6wTA" rel="external nofollow"><i class="fab fa-youtube"></i></a>
+                        <a class="mx-auto" href="https://www.twitch.tv/sirguh67" rel="external nofollow"><i class="fab fa-twitch"></i></a>
+                        <a class="mx-auto" href="https://twitter.com/circle67_" rel="external nofollow"><i class="fab fa-twitter"></i></a>
+                        <a class="mx-auto" href="https://www.artstation.com/circle67" rel="external nofollow"><i class="fab fa-artstation"></i></a>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <div class="container-lg">
+                    <p>Copyright (c) 2021 Circle67</p>
+                    <p>
+                        Contact<br />
+                        See socials (top right)<br />
+                        or reach me at discord !Circle67#1810
+                    </p>
+                    <p>
+                        <a href="https://github.com/circle67/circle67.github.io" rel="external nofollow">Website source</a>
+                    </p>
+                </div>
+            </footer>
         </div>
-        <div id="nav-bar">
-            <ul>
-                <li class="bar-list-item">
-                    <a href="index.html"><img src="images/circle67io-icon.png" alt="home"></a>
-                </li>
-                <li class="bar-list-item">
-                    <a href="projects.html">projects</a>
-                </li>
-            </ul>
-        </div>
-        <div id="wrapper">
-            <div id="center-flex-wrapper">
-                <img src="images/circle67io-title-image.png" alt="circle67io" id="title-image">
-            </div>
-        </div>
-        <footer>
-            <p class="foot-text">
-                Copyright (c) 2021 circle67
-            </p>
-            <p class="foot-text">
-                Contact<br>
-                See socials (top right)<br>
-                or reach me at Discord: @!Circle67#1810
-            </p>
-            <p class="foot-text">
-                <a href="credits.html">Credits</a><br>
-            </p>
-            <p class="foot-text">
-                <a href="https://github.com/circle67/circle67.github.io" target="_blank" rel="noopener external noreferrer">Website source</a>
-            </p>
-        </footer>
+        <script src="index.js"></script>
     </body>
 </html>
