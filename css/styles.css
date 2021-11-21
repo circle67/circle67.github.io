@@ -251,6 +251,10 @@ a:hover {
     opacity: 0.9;
 }
 
-.title-img:hover {
+.title-img-container:hover {
     opacity: 1;
+}
+
+.title-img {
+    width: 100%;
 }
