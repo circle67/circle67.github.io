@@ -67,6 +67,9 @@
     filter: drop-shadow(0.1rem 0.1rem 0.5rem var(--black));
 }
 
+/*
+Acrylic css from https://stackoverflow.com/questions/44522299/css-only-acrylic-material-from-fluent-design-system/57417852#57417852
+*/
 @supports (backdrop-filter: blur(2rem)) {
     .base-theme {
         background: linear-gradient(-45deg, #1b1b1b 0%, var(--dark-fg) 100%);
