@@ -236,10 +236,6 @@ a:hover {
     opacity: 0.9;
 }
 
-.title-img {
-    user-select: none;
-}
-
 .title-img:hover {
     opacity: 1;
 }
