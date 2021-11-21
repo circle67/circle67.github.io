@@ -44,17 +44,17 @@
             gtag('config', 'G-W8SE62KYBV');
         </script>
         <script type="application/ld+json">
-        {
-          "@context": "http://schema.org/",
-          "@type": "Person",
-          "name": "Circle67",
-          "image": "https://raw.githubusercontent.com/circle67/circle67.github.io/master/images/pfp.png",
-          "url": "https://circle67.github.io",
-          "sameAs": ["https://twitter.com/circle67_", "https://www.youtube.com/channel/UCq65L258iXbmGhNi93h6wTA"]
-        }
+            {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "Circle67",
+            "image": "https://raw.githubusercontent.com/circle67/circle67.github.io/master/images/pfp.png",
+            "url": "https://circle67.github.io",
+            "sameAs": ["https://twitter.com/circle67_", "https://www.youtube.com/channel/UCq65L258iXbmGhNi93h6wTA"]
+            }
         </script>
-        <script src="brands.min.js"></script>
-        <script src="fontawesome.min.js"></script>
+        <script async src="brands.min.js"></script>
+        <script async src="fontawesome.min.js"></script>
     </head>
     <body>
         <div class="base-theme wrapper">
@@ -98,5 +98,40 @@
             </footer>
         </div>
         <script src="index.js"></script>
+        <script>
+            function chance(percent) {
+                return Math.random < (percent / 100);
+            }
+
+            window.onload = function (e) {
+                let titleImageCont = document.querySelector('#titleImageContainer');
+
+                let titleImage = document.createElement("img");
+                titleImage.className = "title-img";
+
+                const d = new Date();
+
+                if (d.getMonth() === 11 && d.getDate() === 25) {
+                    console.log("Merry Christmas!");
+                    titleImage.src = "images/title_img_tree.png";
+                    titleImage.alt = "Merry Christmas!";
+                } else if (d.getMonth() === 1 && d.getDate() === 14) {
+                    console.log("Happy Valentine's Day!");
+                    titleImage.src = "images/title_img_heart.png";
+                    titleImage.alt = "Happy Valentine's Day!";
+                } else {
+                    if (chance(0.25)) {
+                        console.log("🗿 yuh!");
+                        titleImage.src = "images/title_img_silly.png";
+                        titleImage.alt = "🗿 yuh!"
+                    } else {
+                        titleImage.src = "images/title_img_normal.png";
+                        titleImage.alt = "Circle67io Title Image";
+                    }
+                }
+
+                titleImageCont.appendChild(titleImage);
+            }
+        </script>
     </body>
 </html>
