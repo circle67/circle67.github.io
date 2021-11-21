@@ -125,24 +125,27 @@
 
                 const d = new Date();
 
+                let imgSrc = "images/";
                 if (d.getMonth() === 11 && d.getDate() === 25) {
                     console.log("Merry Christmas!");
-                    titleImage.src = "images/title_img_tree.png";
+                    imgSrc += "title_img_tree.png";
                     titleImage.alt = "Merry Christmas!";
                 } else if (d.getMonth() === 1 && d.getDate() === 14) {
                     console.log("Happy Valentine's Day!");
-                    titleImage.src = "images/title_img_heart.png";
+                    imgSrc += "title_img_heart.png";
                     titleImage.alt = "Happy Valentine's Day!";
                 } else {
                     if (chance(0.25)) {
                         console.log("🗿 yuh!");
-                        titleImage.src = "images/title_img_silly.png";
+                        imgSrc += "title_img_silly.png";
                         titleImage.alt = "🗿 yuh!"
                     } else {
-                        titleImage.src = "images/title_img_normal.png";
+                        imgSrc += "title_img_normal.png";
                         titleImage.alt = "Circle67io Title Image";
                     }
                 }
+
+                titleImage.src = imgSrc;
 
                 titleImageCont.appendChild(titleImage);
             }
