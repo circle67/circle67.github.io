@@ -60,6 +60,7 @@
 
 .main-container {
     background-color: var(--dark-bg);
+    padding: 0px;
     border-radius: 0.5rem;
     margin-bottom: 8rem;
     filter: drop-shadow(0.1rem 0.1rem 0.5rem var(--black));
