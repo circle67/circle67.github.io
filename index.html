@@ -83,7 +83,7 @@
                 </div>
                 <div class="row">
                     <section class="col-lg main-section d-flex flex-row flex-lg-column justify-content-between projects-links">
-                        <a class="mx-auto" href="https://circle67.github.io/desktop-web-app/">Desktop Web App</a>
+                        <a class="mx-auto" href="https://circle67.github.io/mywordle/">MyWordle</a>
                     </section>
                     <section class="col-lg-5 main-section text-center">
                         <a id="titleImageContainer" href="#" rel="nofollow" class="title-img-container"></a>
@@ -107,16 +107,12 @@
                         or reach me at discord !Circle67#1810
                     </p>
                     <p>
-                        <a href="https://github.com/circle67/circle67.github.io" rel="external nofollow">Website source</a>
+                        <a href="https://github.com/circle67/circle67.github.io" rel="external nofollow">Site source</a>
                     </p>
                 </div>
             </footer>
         </div>
         <script>
-            function chance(percent) {
-                return Math.random < (percent / 100);
-            }
-
             window.onload = function (e) {
                 let titleImageCont = document.querySelector('#titleImageContainer');
 
@@ -148,6 +144,10 @@
                 titleImage.src = imgSrc;
 
                 titleImageCont.appendChild(titleImage);
+            }
+
+            function chance(percent) {
+                return Math.random < (percent / 100);
             }
         </script>
     </body>
